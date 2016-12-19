@@ -1,3 +1,10 @@
 <Page>
     <Label text="hello coucou :)" />
+    <StackLayout orientation="vertical">
+        <Image stretch="none" horizontalAlignment="center" src="https://www.nativescript.org/images/default-source/landingpages/logo.png" />
+        <TextField hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField hint="Password" secure="true" />
+        <Button tap="signIn" class="link" text="Sign in" />
+        <Button tap="register" text="Sign up for Groceries" />
+    </StackLayout>
 </Page>
